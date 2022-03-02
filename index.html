@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<!-- CSS file Included -->
+	<link rel="stylesheet"
+		type="text/css" href="style.css">
+
+	<!-- JavaScript file included -->
+  
+	<script type="text/javascript" src="index.js"></script>
+</head>
+
+  <body><h5 class="text" style="display: flex; justify-content: flex-end">Please fill your nickname for record</h5>
+    <div class="newNameForm" style="display: flex; justify-content: flex-end">
+      
+      <input
+        type="text"
+        placeholder="newer"
+        id="newName"
+      /><button type="button" class="new-name">Add</button>
+    </div>
+    <h5 class="text" style="display: flex">Drop down for your game history</h5>
+    <div class="loadHistoryForm" style="display: flex">
+      <select class="history-select"></select><button type="button" class="get-history">load it</button>
+      
+    </div>
+
+    <section>
+      <h1 class="game--title">Tic Tac Toe</h1>
+      <select class="AI-select">
+        <option value="AI" selected="selected">Race against AI</option>
+        <option value="person">Two persons</option>
+      </select>
+      <select class="size-select">
+        <option value="3" selected="selected">Size: 3</option>
+        <option value="4">Size: 4</option>
+        <option value="5">Size: 5</option>
+        <option value="6">Size: 6</option>
+        <option value="7">Size: 7</option>
+        <option value="8">Size: 8</option>
+        <option value="9">Size: 9</option>
+        <option value="10">Size: 10</option>
+        <option value="11">Size: 11</option>
+        <option value="12">Size: 12</option>
+      </select>
+      <button class="game--restart">Start</button>
+      <h2 class="game--status"></h2>
+    </section>
+    <div class="game--container">
+      <div data-cell-index="0" class="cell"></div>
+      <div data-cell-index="1" class="cell"></div>
+      <div data-cell-index="2" class="cell"></div>
+      <div data-cell-index="3" class="cell"></div>
+      <div data-cell-index="4" class="cell"></div>
+      <div data-cell-index="5" class="cell"></div>
+      <div data-cell-index="6" class="cell"></div>
+      <div data-cell-index="7" class="cell"></div>
+      <div data-cell-index="8" class="cell"></div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

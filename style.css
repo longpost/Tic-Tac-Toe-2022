@@ -1,0 +1,42 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+section {
+  text-align: center;
+}
+.loadHistoryForm {
+  margin-left: auto;
+  margin-right: 0;
+}
+.newNameForm {
+  margin-right: auto;
+  margin-left: 0;
+}
+.game--status {
+  color: #1836b9;
+  background-color: var(--bg);
+  font-family: "Nerko One", cursive;
+}
+.game--container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+}
+
+.cell {
+  background-color: rgb(192, 189, 3);
+  color: #d32a0c;
+  font-family: "Permanent Marker", cursive;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #3027ad;
+  border: 1px solid #541491;
+  cursor: pointer;
+  text-align: center;
+  line-height: 100px;
+  font-size: 60px;
+}
